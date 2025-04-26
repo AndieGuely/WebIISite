@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url("reset.css");
+
+nav {
+    width: 590x;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+  }
+  nav ul {
+    display: flex;
+    height: 59px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav li a {
+    text-decoration: none;
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #ffffff;
+    margin-left: 6.3rem}
+
+.side-nav {
+    display: flex;}
+
+html {
+    background-color: #eeedeb;
+    font-size: 10px;}
+
+ .btn {
+    font-family: "Cabin Condensed", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: #000000;
+    background-color: #03FF9E;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 60px;}
+
+ header {
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 798px;
+    width: 1440px;
+    text-align: center;}
+
+.hero {
+text-align: center;
+background-image: url(../images/hero.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 798px;
+width: 1440px;
+text-align: center;}
+
+.hero p {
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 8rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 601px;
+  }
+
+.hero h1 {
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12.5rem;
+    line-height: 13rem;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 19rem;}
+
+.information ul{
+    text-decoration: none;
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    background-color: #213634;
+    color: #ffffff;
+    display: flex;
+    width: 1440px;
+    height: 124px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    width: 590x;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    background-color: #213634;
+}
+
+footer ul {
+    display: flex;
+    height: 59px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer li a {
+    text-decoration: none;
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #ffffff;
+    margin-left: 6.3rem}
+
+    .side-nav-footer {
+        display: flex;}
