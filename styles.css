@@ -3,15 +3,16 @@
 @import url("reset.css");
 
 nav {
-    margin-left: 60px;
-    margin-right: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-top: 60px;
+
   }
   nav ul {
     display: flex;
     height: 59px;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
   }
   nav li a {
     text-decoration: none;
@@ -21,10 +22,11 @@ nav {
     font-size: 1.8rem;
     line-height: 2.2rem;
     color: #ffffff;
-    margin-left: 6.3rem}
+    margin-left: 6.3rem;}
 
-.side-nav {
-    display: flex;}
+.side-nav{
+display:flex;
+}
 
 html {
     background-color: #eeedeb;
@@ -54,12 +56,7 @@ html {
 
 .hero {
 text-align: center;
-background-image: url(../images/hero.png);
-background-repeat: no-repeat;
-background-size: cover;
-height: 798px;
-width: 100%;
-text-align: center;}
+}
 
 .hero p {
     font-family: "Cabin Condensed", sans-serif;
@@ -84,7 +81,8 @@ text-align: center;}
     color: #ffffff;
     text-align: center;
     text-transform: capitalize;
-    padding-top: 19rem;}
+    padding-top: 19rem;
+  }
 
 .information ul{
     text-decoration: none;
@@ -93,13 +91,20 @@ text-align: center;}
     font-style: normal;
     font-size: 1.8rem;
     line-height: 2.2rem;
-    background-color: #213634;
+    
     color: #ffffff;
     display: flex;
-    width: 100%;
+    max-width: 722.5px;
     height: 124px;
     justify-content: space-around;
     align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.information-container{
+  width:100%;
+  background-color: #213634;
 }
  
 
@@ -111,7 +116,6 @@ footer {
 footer ul {
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 120px;
   }
 
@@ -131,11 +135,8 @@ footer ul {
 
   .test{ 
     border-right: 2px solid #03FF9E;
-    padding-right: 18rem;
+    padding-right: 7.5rem;
     border-left: 2px solid #03FF9E;
-    padding-left: 18rem;
+    padding-left: 4em;
   }
-
-
- 
 
